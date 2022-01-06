@@ -5,60 +5,35 @@ body{
     padding-block-start: 40px;
     padding-right: 50px;
 }
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-h1{
-    font-size: 40px;
-}
-h2{
-    text-align: center;
-    font-size: 30px;
-    padding: 10px;
-}
-h3{
-    font-size: 20px;
-}
-p{
-    font-size: 10px;
-    padding: 5px;
-}
-#scroll{
-    padding-top: 20px;
-}
-.orange{
-        color: chartreuse;
-    }
-    .yellow{
-        color: green;
-    }
 .profile{
         display: flex;
-        margin-bottom: 100px;
-        width: 100%;
-    }
+}
 .half-width{
         width: 50%;
-        padding: 2%;
+        padding: 5%;
     }
 .half-width img{
-    width: 50%;
+    width: 80%;
     }
 .border{    
-    border-image: linear-gradient(salmon,tomato);
-    border-image-slice: 1;
-    border-left: 7px solid;
+    border-left: 7px solid blue;
+}
+.half-width p{
+    font-size: 10px;
 }
 .batton{
     font-size: 15px;
-    background-image: linear-gradient(tomato);
+    background-image: linear-gradient(white);
     text-decoration: none;
     background: palegreen;
     padding: 5px 10px;
     margin: 20px 0;
-
+}
+.batton-padding{
+    margin-left: 8px;
+}
+.my-mission h1{
+    text-align: center;
 }
 .purpose{
     display: flex;
@@ -68,7 +43,7 @@ p{
     width: 30%;
     padding: 2%;
     margin: 0 2%;
-    height: 300px;
+    height: 400px;
     border-radius: 20px;
 }
 .mission-area img{
@@ -81,7 +56,92 @@ p{
     background-color: lightcoral;
 }
 #goals{
-    background-color: maroon;
+    background-color: pink;
 }
-
-    
+.develop-item{
+background-image: url("shapes/dream-bg.png");
+background-repeat: no-repeat;
+background-position: left;
+background-size: 200px;
+}
+.half-pic{
+    width: 40%;
+    padding: 5%;
+}
+.half-pic img{
+    width: 60%;
+    padding: 5px;
+}
+.half-picture{
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: center;
+}
+.orange{
+    color: coral;
+}
+.yellow{
+    color: darkgreen;
+}
+.half-text{
+    width: 60%;
+    padding: 10px;
+}
+.half-text p{
+    font-size: 20px;
+}
+.global-com{
+    display: flex;
+}
+.build-application{
+    padding-top: 30px;
+    background-image: url(shapes/shape-1.png);
+    background-repeat: no-repeat;
+}
+.build-application h2{
+    text-align: center;
+}
+.application-area{
+    display: flex;
+    padding: 70px;
+}
+.application-area img{
+    width: 100%;
+    padding-left: 100px;
+}
+.app-item{
+    width: 40%;
+    padding-left: 40px;
+    margin-left: 20px;
+    margin-right: 2opx;
+}
+.input-field{
+    width: 200px;
+    height: 25px;
+    margin-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 3px solid peru;
+}
+.textarea-fiels{
+    height: 100px;
+}
+.btn{
+    color: blueviolet;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: palegreen;
+    border: none;
+    border-radius: 20px;
+}
+.footer{
+    background-color: black;
+    height: 80px;
+    text-align: center;
+}
+.footer-manu{
+    color: chartreuse;
+    padding: 10px;
+    background-color: black;
+    text-align: center;
+}
