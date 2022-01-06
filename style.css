@@ -3,6 +3,12 @@ body{
     font-family: 'Poppins', sans-serif;
     padding-left: 50px;
     padding-block-start: 40px;
+    padding-right: 50px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 h1{
     font-size: 40px;
@@ -10,6 +16,7 @@ h1{
 h2{
     text-align: center;
     font-size: 30px;
+    padding: 10px;
 }
 h3{
     font-size: 20px;
@@ -18,12 +25,19 @@ p{
     font-size: 10px;
     padding: 5px;
 }
+#scroll{
+    padding-top: 20px;
+}
 .orange{
         color: chartreuse;
+    }
+    .yellow{
+        color: green;
     }
 .profile{
         display: flex;
         margin-bottom: 100px;
+        width: 100%;
     }
 .half-width{
         width: 50%;
@@ -41,26 +55,33 @@ p{
     font-size: 15px;
     background-image: linear-gradient(tomato);
     text-decoration: none;
-    background: black;
+    background: palegreen;
     padding: 5px 10px;
+    margin: 20px 0;
 
 }
 .purpose{
-    width: 30%;
     display: flex;
+    padding: 10px 0;
 }
-.yellow-color{
-    color: green;
+.mission-area{
+    width: 30%;
+    padding: 2%;
+    margin: 0 2%;
+    height: 300px;
+    border-radius: 20px;
 }
-.mission{
-   
+.mission-area img{
+    width: 50%;
 }
-#develop{
-    background-color: hotpink;
-}
-#developer-area{
-    background-color: lightcoral;
-}
-#create-area{
+#mission{
     background-color: limegreen;
 }
+#vission{
+    background-color: lightcoral;
+}
+#goals{
+    background-color: maroon;
+}
+
+    
